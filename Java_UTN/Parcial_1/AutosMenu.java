@@ -59,11 +59,13 @@ public class AutosMenu {
 
     public static void Menu(){
         System.out.println("\nMenu:");
-        System.out.println("1. Agregar alumno");
-        System.out.println("2. Eliminar alumno");
-        System.out.println("3. Buscar alumno");
-        System.out.println("4. Mostrar todos los alumnos");
-        System.out.println("5. Salir");
+        System.out.println("1. Agregar Auto");
+        System.out.println("2. Buscar Auto");
+        System.out.println("3. Eliminar Auto");
+        System.out.println("4. Mostrar todos los Autos");
+        System.out.println("5. Ordenar Auto");
+        System.out.println("6. Editar Auto");
+        System.out.println("7. Salir");
         System.out.print("Elige una opción: ");
     }
 
@@ -97,6 +99,7 @@ public class AutosMenu {
         }
         return listaAutos;
     }
+    
 
     public static void ordenarAutos(ArrayList<String> autos){
         Collections.sort(autos);
